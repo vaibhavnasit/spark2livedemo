@@ -19,7 +19,7 @@ jobs :
       - name: S3 Upload Jar
         uses: jakejarvis/s3-sync-action@dev
         with:
-          args: --acl public-read --follow-symlinks --delete
+          args: --acl public-read --delete
       env:
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}/jar/
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
