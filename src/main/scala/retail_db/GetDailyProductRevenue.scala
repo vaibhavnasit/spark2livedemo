@@ -5,7 +5,7 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 
 /**
-  * Created by itversity on 10/08/18.
+  * Created by vaibhav on 27/02/2020.
   */
 object GetDailyProductRevenue {
   def main(args: Array[String]): Unit = {
